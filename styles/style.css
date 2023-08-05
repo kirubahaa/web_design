@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    user-select: none;
 }
 
 :root {
@@ -47,16 +50,53 @@ body {
 
 .user_name,.password {
     padding: 15px;
+    font-family: "Poppins";
 }
 
 input {
-    width: 50%;
+    width: 60%;
     padding: 7px;
     margin-left: 40px;
     background: transparent;
     border: 2px solid #2c5d96;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+@keyframes shake {
+    0% { margin-left: 0rem; }
+    25% { margin-left: 0.5rem; }
+    75% { margin-left: -0.5rem; }
+    100% { margin-left: 0rem; }
+}
+
+span {
+    color: rgba(0, 255, 255, 0.733);
 }
 
 #one {
-    margin-left: 45px;
+    margin-left: 38px;
+}
+
+#login_button {
+    padding: 8px 25px;
+    margin-top: 55px;
+    margin-left: 290px;
+    font-family: "Rostave";
+    background: transparent;
+    border: 1px solid #2c5d96;
+    color: var(--text_color);
+    cursor: pointer;
+    box-shadow: inset -1px -1px 10px #316aac,
+                inset  1px 1px 10px #316aac;
+    outline: none;
+}
+
+#icon {
+    position: relative;
+    color: #fff;
+    right: 35px;
+    cursor: pointer;
 }
