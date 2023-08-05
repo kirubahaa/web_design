@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title></title>
 </head>
 <body>
@@ -12,15 +13,18 @@
         <div class="sign_in">SIGN IN</div>
         <div class="input_box">
             <div class="user_name">
-                <span>USER NAME</span>
-                <input type="text">
+                <span class="spans">USER NAME</span>
+                <input type="text" id="user">
             </div>
             <div class="password">
-                <span>PASSWORD</span>
-                <input type="password" id="one">
+                <span class="spans" id="vib">PASSWORD</span>
+                <input type="password" id="one"><i class="fa-regular fa-eye-slash" id="icon"></i>
             </div>
         </div>
+        <button id="login_button">LOGIN</button>
     </div>
+
+    <script src="scripts/script.js"></script>
     
 </body>
 </html>
