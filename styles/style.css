@@ -13,21 +13,38 @@
 }
 
 body {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     /* background: linear-gradient(45deg, var(--bg),#053163); */
-    background: #000;
+    background: #001;
 }
 
 .box {
-    position: relative;
+    position: absolute;
     width: 700px;
     height: 400px;
     background-image: url("E:\\web_design\\img\\test.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    box-shadow: 4px 4px 5px #ffffffc2,
+                -4px -4px 5px #fff;
+    border-radius: 10px;
+}
+
+.i {
+    position: relative;
+    color: #f00;
+    margin-left: 185px;
+    top: 25px;
+    font-size: 20px;
+}
+
+#anchor {
+    text-decoration: none;
+    color: #fff;
 }
 
 .sign_in {
@@ -85,7 +102,7 @@ span {
 
 #login_button {
     padding: 8px 25px;
-    margin-top: 92px;
+    margin-top: 72px;
     margin-left: 290px;
     font-family: "Rostave";
     background: transparent;
@@ -101,3 +118,4 @@ span {
     right: 35px;
     cursor: pointer;
 }
+
