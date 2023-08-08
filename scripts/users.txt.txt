@@ -1,3 +1,0 @@
-john:password123
-alice:pass456
-bob:securepwd

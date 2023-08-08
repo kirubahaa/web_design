@@ -12,9 +12,16 @@
     <div class="box">
         <h2>How Can We Help You ?</h2>
         <input placeholder="Enter your search term"><i class="fa-solid fa-square" style="color: #000000;" id="box"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;" id="search"></i></i>
-        <button>Sign Up</button>
+        <button id="sign">Sign Up</button>
         <button><a href="login.html">Login</a></button>
     </div>
+
+    <script>
+
+        let btn = document.getElementById("sign");
+        btn.addEventListener("click", () => {location.href="index1.html"});
+
+    </script>
     
 </body>
 </html>

@@ -18,20 +18,16 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    /* background: linear-gradient(45deg, var(--bg),#053163); */
-    background: #001;
+    background-image: url("E:\\web_design\\img\\bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .box {
     position: absolute;
     width: 700px;
     height: 400px;
-    background-image: url("E:\\web_design\\img\\test.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    box-shadow: 4px 4px 5px #ffffffc2,
-                -4px -4px 5px #fff;
-    border-radius: 10px;
+    background: rgba(255,255,255,0.2);
 }
 
 .i {
@@ -117,5 +113,9 @@ span {
     color: #fff;
     right: 35px;
     cursor: pointer;
+}
+
+#user {
+    margin-left: 80px;
 }
 
